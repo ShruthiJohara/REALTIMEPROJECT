@@ -25,7 +25,7 @@
                 sh 'ls -ltr'
                 sh '''cd Application && mvn sonar:sonar \\
                       -Dsonar.host.url=http://23.20.184.103:9000 \\
-                      -Dsonar.login=squ_1ed7440050e2a1369d5dbf845cd67bae3850d9bc'''
+                      -Dsonar.login=squ_6e2d2914fcc70db1bd8928621dd23e80e5bb2023'''
             }
     	}
        stage('Build docker image'){
